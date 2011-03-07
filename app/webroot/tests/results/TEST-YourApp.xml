@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="YourApp" errors="0" tests="1" failures="0" time="0.015" timestamp="2011-03-06T14:44:22">
+  <testcase classname="YourApp" name="should add" time="0.013"></testcase>
+</testsuite>
+</testsuites>

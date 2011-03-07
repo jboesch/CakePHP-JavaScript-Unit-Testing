@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>JS Unit Test Suite</title>
+
+    <link rel="stylesheet" href="ext/jasmine.css" type="text/css" />
+
+    <script type="text/javascript" src="ext/jasmine.js"></script>
+    <script type="text/javascript" src="ext/jasmine-html.js"></script>
+    <script type="text/javascript" src="src/jasmine.junit_reporter.js"></script>
+    <!-- END NO TOUCHY! -->
+
+    <!-- libs -->
+    <script type="text/javascript" src="../js/YourApp.js"></script>
+
+    <!-- Include spec files -->
+    <script type="text/javascript" src="specs/YourApp.test.js"></script>
+
+</head>
+<body>
+    <script type="text/javascript">
+        jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+        // export results to...
+        jasmine.getEnv().addReporter(new jasmine.JUnitXmlReporter('results/'));
+        jasmine.getEnv().execute();
+    </script>
+</body>
+</html>

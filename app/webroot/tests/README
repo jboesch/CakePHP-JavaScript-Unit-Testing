@@ -1,0 +1,4 @@
+To run tests:
+-------------------------------------------------------------
+From the javascript folder in Terminal, enter:
+java -jar lib/js.jar -opt -1 lib/envjs.bootstrap.js index.html
