@@ -19,10 +19,10 @@ If you're looking to just add the necessary files/folders to your own project, h
 * app/webroot/tests - test specs and other 3rd party libs like Jasmine (required)
 * app/vendors/shells/testjssuite.php - command line script (required)
 * app/webroot/.htaccess - this already exists, but add the following to it to prevent direct access to our html test files: 
-<FilesMatch "\.html$">
+&lt;FilesMatch &quot;\.html$&quot;&gt;
     Order Allow,Deny
     Deny from all
-</FilesMatch>
+&lt;/FilesMatch&gt;
 
 
 ## Writing tests
