@@ -18,6 +18,12 @@ If you're looking to just add the necessary files/folders to your own project, h
 * app/webroot/testjs.php - like CakePHP's test.php, directly access your tests via the browser (required)
 * app/webroot/tests - test specs and other 3rd party libs like Jasmine (required)
 * app/vendors/shells/testjssuite.php - command line script (required)
+* app/webroot/.htaccess - this already exists, but add the following to it to prevent direct access to our html test files: 
+<FilesMatch "\.html$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
 
 ## Writing tests
 
