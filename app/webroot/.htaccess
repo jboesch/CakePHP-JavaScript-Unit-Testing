@@ -4,6 +4,7 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 </IfModule>
+# The line below makes it so people cannot directly access our .html test spec files
 <FilesMatch "\.html$">
     Order Allow,Deny
     Deny from all
