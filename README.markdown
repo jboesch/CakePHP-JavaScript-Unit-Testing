@@ -1,9 +1,8 @@
 # CakePHP JavaScript Unit Testing 
+Test JavaScript using Jasmine BDD from the browser and on the command line. Output the results to JUnit!
 
 ## Requirements
 * Java (Rhino needs it to do command line tests)
-
-Test JavaScript using Jasmine BDD from the browser and on the command line. Output the results to JUnit!
 
 ## Overview
 
