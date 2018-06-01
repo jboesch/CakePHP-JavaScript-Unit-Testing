@@ -7,7 +7,7 @@ Test JavaScript using Jasmine BDD from the browser and on the command line. Outp
 ## Overview
 
 By default, CakePHP does not come with any kind of support for JavaScript unit testing....
-But most of us need it, right? Here is an example of Jasmine BDD (http://pivotal.github.com/jasmine/) integrated
+But most of us need it, right? Here is an example of Jasmine BDD (https://jasmine.github.io/) integrated
 with CakePHP. This example allows you to test in the browser and also run your tests from the command line and output
 the results to a JUnit xml file. JUnit is a format used in numerous Continuous Integration apps.
 
